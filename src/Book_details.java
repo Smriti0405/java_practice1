@@ -40,8 +40,7 @@ public class Book_details {
     }
 }
 
-
-    class Author {
+class Author {
         String aname;
         char gender;
 

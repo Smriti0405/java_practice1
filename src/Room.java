@@ -14,7 +14,7 @@ public class Room {
         int home_theatreO;
         int lightO;
         int fanO;
-        if(fan == true && ac == true && light == true && home_theatre == true) {
+        if(fan || ac || light || home_theatre) {
              acO = 1200;
              home_theatreO = 600;
             lightO = 100;
